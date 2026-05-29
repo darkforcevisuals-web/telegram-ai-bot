@@ -15,8 +15,7 @@ GEMINI_API_KEY = "AIzaSyDAkeKFvl0IhgAWKyg8BKFg2qMCuI5eIEs"
 # ============================================================
 
 genai.configure(api_key=GEMINI_API_KEY)
-model = genai.GenerativeModel("gemini-1.5-flash")
-
+model = genai.GenerativeModel("gemini-2.0-flash")
 logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(message)s",
     level=logging.INFO
