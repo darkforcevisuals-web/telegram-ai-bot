@@ -1,0 +1,8 @@
+[phases.setup]
+nixPkgs = ["python311"]
+
+[phases.install]
+cmds = ["pip install python-telegram-bot==20.7 google-generativeai==0.7.2"]
+
+[start]
+cmd = "python telegram_ai_bot.py"
