@@ -11,7 +11,7 @@ import os
 
 # ============================================================
 TELEGRAM_TOKEN = "8737973117:AAHtHwfN3qH_e2NiezusSi706bDh8O_RcIs"
-GEMINI_API_KEY = "AIzaSyDAkeKFvl0IhgAWKyg8BKFg2qMCuI5eIEs"
+GEMINI_API_KEY = "AQ.Ab8RN6JnPeQL3x_Hb32vNe3LL15eUweoLXjla-j-BQqRHbWryg"
 # ============================================================
 
 genai.configure(api_key=GEMINI_API_KEY)
